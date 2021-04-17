@@ -1,0 +1,32 @@
+@mixin border-radius($radius: 1px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin box-fluid($mw) {
+  max-width: $mw + px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+@mixin input-width($ipw) {
+  width: $ipw + px !important;
+  max-width: 100%;
+}
+@mixin button-width($btw) {
+  max-width: $btw + px;
+  width: 100%;
+}
+@mixin max-width($maxw) {
+  max-width: $maxw + px;
+  width: 100%;
+}
+@mixin modal-width($mdw) {
+  max-width: $mdw + px;
+  width: 96%;
+}

@@ -1,0 +1,61 @@
+.modalw-996 {
+  @include modal-width(996);
+}
+.modalw-386 {
+  @include modal-width(386);
+}
+.modal-header {
+  height: 44px;
+  background-color: $g700;
+  .modal-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+}
+.modal-content {
+  height: 690px;
+  overflow: hidden;
+}
+.modal-body {
+  padding: 8px;
+  overflow-y: auto;
+  .modal-body-inner {
+    background-color: $g100;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+.modal-comfirm {
+  .modal-content {
+    height: 200px;
+  }
+  .modal-body-inner {
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .modal-footer {
+    height: 56px;
+    padding: 0;
+
+    .btn {
+      background-color: $g200;
+      border-color: $g200;
+      border-radius: 0;
+      height: 56px;
+      margin: 0;
+      color: $g500;
+      flex: 1 1 auto;
+
+      &:last-child {
+        background-color: $g700;
+        border-color: $g700;
+        color: #fff;
+      }
+    }
+  }
+}

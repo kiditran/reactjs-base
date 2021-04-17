@@ -1,0 +1,28 @@
+.ipw-386 {
+  @include input-width(386);
+}
+.ipw-488 {
+  @include input-width(488);
+}
+.ipw-349 {
+  @include input-width(349);
+}
+.form-check-input {
+  width: 17px;
+  height: 17px;
+  border-radius: 0;
+}
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.input-btn-group {
+  .btn {
+    border-color: $g700;
+    background-color: $g700;
+    width: 130px;
+    border-radius: 3px;
+    margin-left: 9px;
+  }
+}

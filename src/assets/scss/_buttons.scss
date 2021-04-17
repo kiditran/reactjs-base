@@ -1,0 +1,32 @@
+.btw-386 {
+  @include button-width(386);
+}
+.btw-372 {
+  @include button-width(372);
+}
+.btw-290 {
+  @include button-width(290);
+}
+.btw-224 {
+  @include button-width(224);
+}
+.btw-184 {
+  @include button-width(184);
+}
+.btn {
+  &:active,
+  &:focus,
+  &.focus {
+    box-shadow: none;
+  }
+}
+.btn-terms {
+  border-color: $g700;
+  background-color: $g700;
+  border-radius: 3px;
+  width: 72px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+}

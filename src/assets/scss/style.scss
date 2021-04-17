@@ -1,0 +1,15 @@
+// If you want to override variables do it here
+@import 'mixins';
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+// If you want to add something do it here
+@import 'fonts';
+@import 'header';
+@import 'footer';
+@import 'buttons';
+@import 'modals';
+@import 'form';
+
+@import 'custom';
