@@ -8,19 +8,16 @@ const Navbar = () => {
         <div className="container">
           <ul className="d-flex justify-content-center">
             <li>
-              <NavLink to="/">LiveClass 책글</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/">LiveClass 목적</NavLink>
-            </li>               
-            <li>
-              <NavLink to="/">과학수학 다빈치</NavLink>
+              <NavLink to="/login">Login</NavLink>
             </li>
             <li>
-              <NavLink to="/">도서</NavLink>
+              <NavLink to="/register">Register</NavLink>
             </li>
             <li>
-              <NavLink to="/"> LiveClass 안내</NavLink>
+              <NavLink to="/elements">Elements</NavLink>
             </li>
           </ul>
         </div>
